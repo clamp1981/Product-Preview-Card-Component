@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![product-preview-card-component-screenshot](https://user-images.githubusercontent.com/14327580/216860698-bd9c5fa7-71b2-4f83-bee9-16c3d32ae6b1.jpg)
 
 
 ### Links
