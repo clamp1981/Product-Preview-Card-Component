@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Product preview card component solution](https://github.com/clamp1981/Product-Preview-Card-Component)
+- Live Site URL: [Product preview card component live site URL here](https://clamp1981.github.io/Product-Preview-Card-Component/)
 
 ## My process
 
