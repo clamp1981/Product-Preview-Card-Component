@@ -1,0 +1,123 @@
+/* 
+- Mobile: 375px
+- Desktop: 1440px
+## Colors
+### Primary
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+### Neutral
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+## Typography
+### Body Copy
+- Font size (paragraph): 14px
+### Font
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700 
+*/
+
+body{    
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat';
+    font-size:14px;
+}
+
+.container {       
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    width: 37.5rem;
+    height: 28.125rem;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    /*부모 기준 수평 수직 정렬*/ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.desktop-img { 
+    width: 100%; 
+    height: 100%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.text-container{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.product-type{
+    font-family: 'Montserrat';
+    font-size:12px;
+    color: hsl(228, 12%, 48%)
+}
+
+.product-name{
+    margin: 20px 0;
+    font-family: 'Fraunces';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.product-description{
+    font-family: 'Montserrat';
+    font-size:14px;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    padding-bottom: 1.0rem;
+    line-height: 1.7;
+}
+
+.price-container{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding-bottom: 1.875rem;
+}
+.product-price-discount{
+    font-family: 'Fraunces';
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color:hsl(158, 36%, 37%);
+}
+
+.product-price-item{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.product-price{
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    
+}
+
+.addcart-btn{
+    color: hsl(0, 0%, 100%) ;
+    background-color: hsl(158, 36%, 37%) ;
+    border-radius: 10px;    
+    font-family: 'Montserrat';
+    width: 240px;
+    height: 45px;
+    border:none;
+}
+
+.addcart-btn:hover{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(159, 42.2%, 17.6%) ;
+}
+
+.addcart-btn ion-icon{
+    font-size: 16px;
+}
+
+
+
