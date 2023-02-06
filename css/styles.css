@@ -78,7 +78,7 @@ body{
 
 .price-container{
     display: grid;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 50%);    
     padding-bottom: 1.875rem;
 }
 .product-price-discount{
@@ -119,5 +119,36 @@ body{
     font-size: 16px;
 }
 
+
+@media (max-width:1028px) {
+    .container {  
+        width: 21.5625rem;
+        height: 38.4375rem;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 240px 375px;
+        /* 부모 기준 수평 수직 정렬  */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .desktop-img {
+        position: relative;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .text-container{
+        padding-left: 25px;
+        padding-top: 15px;
+    }
+
+    .addcart-btn{
+       
+        width: 300px;
+        
+    }
+}
 
 
